@@ -1,35 +1,32 @@
 void main() {
-  /**
-   * STRING MANIPULATION
-   * Declare a string variable named "greeting" with the value "Hello, Dart!".
-   * Create a new string variable that concatenates "greeting" with your name.
-   */
+  //NUMBERS
+  int num1 = 80;
+  double num2 = 35.7;
+  num num3 = 19;
+  num num4 = 4.5;
 
-  String greeting = "Hello, Dart!";
-  print("$greeting my name is Boluwaji");
+  // For Sum
+  num sum = num1 + num2 + num3 + num4;
 
-  /**
-   * NUMERIC OPERATIONS
-   * Declare two integer variables, "num1" and "num2", with values 10 and 5 respectively.
-   * Calculate the sum, difference, product and quotient of "num1" and "num2"
-   */
+  print("Num 1 is $num1");
+  print("Num 2 is $num2");
+  print("Num 3 is $num3");
+  print("Num 4 is $num4");
+  print("Sum is $sum");
 
-  int num1 = 10;
-  int num2 = 5;
+  //STRING
+  String fullName = "Boluwaji Popoola";
+  String bestFood = "Yam and Egg";
 
-  print("The sum is $num1 + $num2");
-  print("The difference is $num1 - $num2");
-  print("The product is $num1 * $num2");
-  print("The quotent is $num1 / $num2");
+  print("My full name is $fullName and my favourite food is $bestFood");
 
-  /**
-   * BOOLEAN LOGIC
-   * Create a boolean variable named isDartFun and set it to true.
-   * Write a statement that prints "Dart is fun!" if isDartFun is true.
-   */
-  bool isDartFun = true;
-  
-  if (isDartFun) {
-    print("Dart is fun!");
-  } 
+  // MULTI LINE STRING
+  String multiLineParagraph = """
+  This is a multi line paragraph
+  I really hope it works
+  I am tired
+  I don't know what to write again at this point
+  """;
+
+  print("This is a paragraph \n $multiLineParagraph");
 }
