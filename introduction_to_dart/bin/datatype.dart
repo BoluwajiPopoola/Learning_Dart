@@ -29,4 +29,28 @@ void main() {
   """;
 
   print("This is a paragraph \n $multiLineParagraph");
+
+  //CONVERT STRING TO INT
+  String strvalue = "1";
+  int intvalue = int.parse(strvalue);
+  print("Value of intvalue is $intvalue");
+
+  //CONVERT STRING TO DOUBLE
+  String strvalue1 = "1.1";
+  double doublevalue = double.parse(strvalue1);
+  print("Type of doublevalue is ${doublevalue.runtimeType}");
+
+  //CONVERT INT TO STRING
+  int one = 1;
+  String oneInString = one.toString();
+  print("Type of oneInString is $oneInString.runtimeType");
+
+  //CONVERT DOUBLE TO STRING
+  double numm = 3.5;
+  String num1InString = numm.toString();
+  print("Type of num1InString is $num1InString.runtimeType");
+
+  //BOOLEAN
+  bool isMale = true;
+  print("Are you Male: $isMale");
 }
