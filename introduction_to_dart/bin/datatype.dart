@@ -53,4 +53,54 @@ void main() {
   //BOOLEAN
   bool isMale = true;
   print("Are you Male: $isMale");
+
+  //LIST STRING
+  List<String> names = ["Boluwaji", "Oluwafemi", "Wuraola", "Oreofeoluwa"];
+  print("Value of names is $names");
+  print("Value of names[0] is ${names[0]}");
+  print("Value of names[1] is ${names[1]}");
+  print("Value of names[2] is ${names[2]}");
+  print("Value of names[3] is ${names[3]}");
+
+  int length = names.length;
+  print("The Length of names is $length");
+
+  print("");
+
+  // LIST INT
+  List<int> ages = [15, 20, 17, 10];
+  print("Value of Ages is $ages");
+  print("Value of Age[0] is ${ages[0]}");
+  print("Value of Age[1] is ${ages[1]}");
+  print("Value of Age[2] is ${ages[2]}");
+  print("Value of Age[3] is ${ages[3]}");
+
+  int length2 = ages.length;
+  print("The Length of ages is $length2");
+
+  // SET
+  Set<String> month = {
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  };
+  print(month);
+
+  // MAP
+  Map<String, int> classAge = {
+    "Boluwaji":  15,
+    "Kehinde":  17,
+    "Joy":  16
+    };
+
+    print(classAge["Boluwaji"]);
 }
