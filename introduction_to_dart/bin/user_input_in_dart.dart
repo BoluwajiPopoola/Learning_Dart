@@ -13,4 +13,12 @@ void main() {
   print("How tall are you?");
   double height = double.parse(stdin.readLineSync()!);
   print("You claim to be $height");
+
+  print("Enter anything");
+  String? anyText = stdin.readLineSync()!;
+  if (anyText.isEmpty) {
+    print("You did not enter anything");
+  } else {
+    print("You entered $anyText");
+  }
 }
